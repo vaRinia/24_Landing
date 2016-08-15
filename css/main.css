@@ -1,0 +1,66 @@
+@media only screen and (max-width: 535px) {
+    [class*="col-"] {
+        width: 100%;
+    }
+}
+@media (max-width: 535px) {
+    section, header, footer {
+        padding: 0%;
+    }
+}/* parece que esto no funciona :(*/
+* {
+	font-family: Open Sans;
+}
+header img {
+	width: 40%;
+}
+header a {
+	text-decoration: none;
+	margin: 1%;
+	font-size: .9em;
+	float: right;
+
+}
+section {
+	background-color: #716B6B;
+
+}
+input {
+	display: block;
+	margin: 3%;
+	width: 100%;
+}
+.pd-1-5{
+	padding: 1% 5% 1% 5%;
+}
+.pr-5 {
+	padding-right: 5%;
+}
+.bg-transp {
+	background-color: rgba(255,255,255,0.2);
+	border-radius: 10px;
+}
+header, footer {
+	padding: 2% 15%;
+}
+section {
+	padding: 5% 15%;
+}
+h1 {
+	font-size: 2.5em;
+	margin-bottom: 8%;
+}
+p {
+	margin-bottom: 8%;
+}
+.button {
+	width: 100%;
+	padding: 2%;
+	margin: 3%;
+	background-color: lightblue;
+	color: white
+	border-color: blue;
+}
+footer {
+	font-size: 0.8em;
+}
