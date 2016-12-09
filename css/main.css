@@ -1,13 +1,13 @@
-@media only screen and (max-width: 535px) {
+@media only screen and (max-width: 824px) {
     [class*="col-"] {
         width: 100%;
     }
-}
-@media (max-width: 535px) {
-    section, header, footer {
-        padding: 0%;
+
+    section {
+    	padding: 0%;
     }
-}/* parece que esto no funciona :(*/
+}
+
 * {
 	font-family: Open Sans;
 }
@@ -19,9 +19,8 @@ header a {
 	margin: 1%;
 	font-size: .9em;
 	float: right;
-
 }
-section {
+section {                                    
 	background-color: #716B6B;
 
 }
